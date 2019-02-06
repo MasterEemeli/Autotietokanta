@@ -1,0 +1,27 @@
+{
+"debug":true,
+"host":"localhost",
+"mysqlportti":3306,
+"admin":"root",
+"adminsalasana":"",
+"kayttaja":"saara",
+"salasana":"Dt5L5OIO",
+"dropKayttaja":true,
+"tietokanta":"autotietokanta",
+"taulut":[
+{
+"nimi":"auto",
+"sarakkeet":[
+  "valmistusNro INTEGER NOT NULL PRIMARY KEY",
+  "merkki VARCHAR(7) NOT NULL",
+  "vuosimalli INTEGER NOT NULL",
+  "arvostelu VARCHAR(6) NOT NULL",
+  "rekisteriNro VARCHAR(9) NOT NULL"
+],
+"data":[
+  [1,"Audi", "2000", "***", "ABC-123"],
+  [2, "Volvo", "2015", "**","WER-321"]
+]
+}
+]
+}
